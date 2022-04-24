@@ -26,7 +26,7 @@ const NFTDropPage = () => {
         <div className="flex flex-1 flex-col p-12 lg:col-span-6">
           {/* Header */}
           <header className="flex items-center justify-between">
-            <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-60"><span className="font-extrabold underline decoration-pink-600/50">Benzo{' '}</span>{' '}NFT Market Place </h1>
+            <h1 className="w-52 cursor-pointer text-xl font-extralight sm:w-80"><span className="font-extrabold underline decoration-pink-600/50">Benzo{' '}</span>{' '}NFT Market Place </h1>
 
             <button onClick={() => (address ? disconnect() : connectWithMetamask())} className="rounded-full bg-rose-400 px-4 py-2 text-xs font-bold text-white lg:px-5 lg:py-3 lg:text-base">{address ? 'Sign Out' : 'Sign In'}</button>
           </header>
